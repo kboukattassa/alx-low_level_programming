@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 
-/*
+/**
  * main - Checks if int n is postive, negative or 0
  *
  * Return: Always 0 (Success)
