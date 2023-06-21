@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /*
- * main - Entry point
+ * main - Checks if int n is postive, negative or 0
  *
  * Return: Always 0 (Success)
  */
