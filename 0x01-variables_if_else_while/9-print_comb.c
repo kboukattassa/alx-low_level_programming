@@ -12,6 +12,10 @@ int main(void)
 	{
 		putchar(i + 48);
 		putchar(',');
+	}
+
+	for (i =0; i < 9; i++)
+	{
 		putchar(' ');
 	}
 	putchar('\n');
