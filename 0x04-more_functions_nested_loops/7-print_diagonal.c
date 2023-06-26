@@ -1,6 +1,7 @@
 #include "main.h"
 /**
- *
+ * print_diagonal - prints digonal line
+ * @n: integer for diagonal
  */
 void print_diagonal(int n)
 {
