@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _strncat(char *dest, char *Src, int n)
+ * _strncat - concatenates
  * @dest: destination
  * @src: source
  * @n: parameter
