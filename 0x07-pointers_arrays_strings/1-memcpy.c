@@ -3,6 +3,7 @@
  * _memcpy - copies memory area
  * @dest: stored memory
  * @src: memory copied
+ * @n: para
  * Return: Result
  */
 char *_memcpy(char *dest, char *src, unsigned int n)
@@ -12,7 +13,7 @@ char *_memcpy(char *dest, char *src, unsigned int n)
 
 	for (; r < i; r++)
 	{
-		dest [r] = src [r];
+		dest[r] = src[r];
 		n--;
 	}
 	return (dest);
