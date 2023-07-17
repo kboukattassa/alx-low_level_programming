@@ -2,7 +2,8 @@
 #include "main.h"
 /**
  * alloc_grid - returns to a 2 dimensional array
- * @grid: address of pointer
+ * @width: para
+ * @height: para
  * Return: Result
  */
 int **alloc_grid(int width, int height)
