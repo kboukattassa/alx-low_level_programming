@@ -2,7 +2,6 @@
 #include "main.h"
 /**
  * _strdup - retruns pointer to newly allocated space in memory
- * @copy: string to copy
  * @str: og string
  * len: para
  * Return: Result
@@ -17,7 +16,7 @@ char *_strdup(char *str)
 		return (NULL);
 	}
 
-	while (str[len] != '\0')
+	while (str[len])
 	{
 		len++;
 	}
@@ -28,12 +27,11 @@ char *_strdup(char *str)
 		return (NULL);
 	}
 	len = 0;
-	while (str[len] != '\0')
+	while (str[len])
 	{
 		copy[len] = str[len];
 		len++;
 	}
 	copy[len] = '\0';
 	return (copy);
-	
 }
