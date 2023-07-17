@@ -22,9 +22,9 @@ int **alloc_grid(int width, int height)
 				i--;
 			}
 			free(grid);
-			return(NULL);
+			return (NULL);
 		}
 		i++;
 	}
-	return(grid);
+	return (grid);
 }
