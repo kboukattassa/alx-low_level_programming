@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _puts_recursion: prints string using recur
+ * _puts_recursion : prints string using recur
  * @s: charachter pointer
  * Return: string
  */
