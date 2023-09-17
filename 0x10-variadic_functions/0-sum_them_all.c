@@ -2,8 +2,11 @@
 #include <stdarg.h>
 #include <stdio.h>
 /**
+ * sum_them_all - Returns the sum of all its paras
+ * @n: number of paras passed to the func
+ * @...: variable number of args
  *
- *
+ * Return: if n == 0 - 0
  */
 int sum_them_all(const unsigned int n, ...)
 {
