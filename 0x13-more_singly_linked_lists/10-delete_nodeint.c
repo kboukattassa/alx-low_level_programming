@@ -4,9 +4,7 @@
 /**
  * delete_nodeint_at_index - deletes node at index
  * @head: pointer to pointer to head
- * @temp: tempo node
- * @new_node: new node
- * 
+ * @index: index 
  * Return: return
  */
 int delete_nodeint_at_index(listint_t **head, unsigned int index)
@@ -35,7 +33,7 @@ int delete_nodeint_at_index(listint_t **head, unsigned int index)
 			temp = new_node->next;
 			new_node->next = temp->next;
 			free(temp);
-			return(1);
+			return (1);
 		}
 		new_node = new_node->next;
 		i++;
