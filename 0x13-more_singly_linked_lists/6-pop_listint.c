@@ -2,11 +2,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * pop_listint - deletes a node from beg
- * @head: pointer to pointer to the head
- * @data: Var where data of node del is stored
+ * pop_listint - deletes node and stores data
  *
- * @Return: data
+ * Return: result
  */
 int pop_listint(listint_t **head)
 {

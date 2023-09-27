@@ -4,8 +4,6 @@
 /**
  * sum_listint - sums up the data in the list
  * @head: pointer to the head of the list
- * @sum: int
- * @temp: tempo pointer
  *
  * Return: the sum of the data
  */

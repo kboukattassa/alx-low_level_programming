@@ -4,9 +4,7 @@
 /**
  * get_nodeint_at_index - get node at spec index
  * @head: pointer to head
- * @temp: temporary pointer
  * @index: index chosen
- * @count: counter
  *
  * Return: traverse to the index
  */

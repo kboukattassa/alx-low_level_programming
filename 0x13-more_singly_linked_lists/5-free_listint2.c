@@ -4,7 +4,6 @@
 /**
  * free_listint2 - frees the list and sets the head to NULL
  * @head: pointer to pointer to the head of the list
- * @temp: temporary poiter to keep track
  *
  * Return: a free list
  */
