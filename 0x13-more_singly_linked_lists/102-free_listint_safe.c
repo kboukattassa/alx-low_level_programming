@@ -7,7 +7,7 @@
  *
  * Return: the number of nodes that were freed
  */
-size_t free_listint_saffe(listint_t **h)
+size_t free_listint_safe(listint_t **h)
 {
 	listint_t *current = *h;
 	listint_t *temp = NULL;
