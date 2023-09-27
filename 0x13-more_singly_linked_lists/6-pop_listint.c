@@ -3,7 +3,7 @@
 #include <stdlib.h>
 /**
  * pop_listint - deletes node and stores data
- *
+ * @head: pointer to pointer to head
  * Return: result
  */
 int pop_listint(listint_t **head)
