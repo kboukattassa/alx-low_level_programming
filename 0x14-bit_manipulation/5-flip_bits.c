@@ -1,4 +1,6 @@
 #include "main.h"
+#include <stdlib.h>
+#include <stdio.h>
 /**
  * flip_bits - counts the number of the bits to flip to get from n to m
  * @n: the first number
