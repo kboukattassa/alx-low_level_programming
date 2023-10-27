@@ -3,6 +3,7 @@
 /**
  * clear_bit - set the value of bit to 0
  * @n: pointer to the numb to modi
+ * @index: index of bit
  *
  * Return: 1 or -1
  */
