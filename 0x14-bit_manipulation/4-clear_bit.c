@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdi.h>
+#include <stdio.h>
 /**
  * clear_bit - set the value of bit to 0
  * @n: pointer to the numb to modi
